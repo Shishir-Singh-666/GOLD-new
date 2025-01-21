@@ -45,8 +45,7 @@ def generate_totp_in_base64(secret_hex, step=2, digits=6, algorithm=hashlib.sha1
 
 
 # URL containing the TAP_SECRET variable
-SECRET_URL = 'https://telegram.geagle.online/assets/index-DI7KSCOy.js'
-
+SECRET_URL = 'https://telegram.geagle.online/assets/index-B2UGGrRc.js'
 # Fetch the secret
 try:
     secret_hex = get_secret(SECRET_URL)
